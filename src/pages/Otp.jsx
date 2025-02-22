@@ -81,8 +81,8 @@ const Otp = () => {
           Enter your verification code
         </h2>
         <p className="text-gray-500 text-center mb-4">
-          Enter the six-digit code (OTP) sent to your registered email
-          {email}
+          Enter the six-digit code (OTP) sent to your registered email 
+          <span> {email}</span>
         </p>
 
         <form onSubmit={handleSubmit(submitForm)}>
